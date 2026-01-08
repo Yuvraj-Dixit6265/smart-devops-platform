@@ -1,0 +1,13 @@
+# Python
+venv/
+.env
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
