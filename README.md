@@ -59,19 +59,6 @@ Exposed as an API endpoint:
 
 GET /analyze/costs
 
-🏗️ Architecture Overview
-Code Push
-   ↓
-CI Pipeline (GitHub Actions)
-   ↓
-Docker Build
-   ↓
-Kubernetes Deployment (Manual CD)
-   ↓
-Application Runtime
-   ├── Logs → AI Log Analyzer
-   └── Cost Data → Cost Anomaly Engine
-
 
 
 🔍 Key API Endpoints
