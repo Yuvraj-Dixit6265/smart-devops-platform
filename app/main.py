@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.logger import logger
+from ai_assistant.log_analyzer import analyze_logs
 
 import datetime
 import socket
@@ -28,3 +29,8 @@ def health():
 def crash():
     logger.error("Application crash simulated")
     raise Exception("Simulated crash for monitoring")
+
+@app.get("/analyze/logs")
+def analyze_application_logs():
+    logger.info("Log analysis triggered via API")
+    return analyze_logs()
