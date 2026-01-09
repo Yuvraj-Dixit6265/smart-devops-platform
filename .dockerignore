@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# Git
+.git
+.gitignore
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Tests / cache
+.pytest_cache/
