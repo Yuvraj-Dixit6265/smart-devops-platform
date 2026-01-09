@@ -72,18 +72,7 @@ Application Runtime
    ├── Logs → AI Log Analyzer
    └── Cost Data → Cost Anomaly Engine
 
-🧩 Project Structure
-smart-devops-platform/
-│
-├── app/                    # FastAPI application
-├── ai_assistant/           # AI-based log analyzer
-├── cost_engine/            # Cloud cost optimization & anomaly detection
-├── ci/                     # CI helper scripts
-├── docker/                 # Dockerfile
-├── k8s/                    # Kubernetes manifests
-├── terraform/              # Infrastructure-as-Code (cloud-ready)
-├── .github/workflows/      # CI/CD pipelines
-└── README.md
+
 
 🔍 Key API Endpoints
 Health Check
@@ -154,8 +143,7 @@ Production-safe engineering decisions
 
 👨‍💻 Author
 
-Yuvraj Dixit
-DevOps | Cloud | Automation | AI Ops
+Yuvraj Dixit  
 
 📣 Final Note
 
